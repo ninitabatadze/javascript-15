@@ -1,0 +1,107 @@
+@font-face {
+  font-family:'Inter';
+  ;
+  src: url(fonts/Inter-Regular.ttf);
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto; 
+}
+.logout{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup {
+    position: absolute;
+    bottom: calc(100% + -470px);
+    width:340px;
+    height: 400px;
+  display: none;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+ border-radius: 20px;
+  text-align: center;
+}
+
+#logoutBtn {
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 20px;
+  color: #FFFFFF;
+  width: 212px;
+  height: 63px;
+  background: #1D9BF0;
+  line-height: 24px;
+  border-radius: 20px;
+  border: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.popup p {
+  margin: 10px 0;
+}
+
+.popup button {
+  margin: 5px;
+}
+#text-1{
+text-align: start;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 24px;
+margin-top: 30px;
+color: #000000;
+
+}
+#text-2{
+  text-align: start;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16px;
+  
+  color: #000000;
+  
+  }
+
+#confirmLogoutBtn{
+border: none;
+color: white;
+display: flex;
+border: 1px solid #000000;
+justify-content: center;
+align-items: center;
+width:85%;
+height: 50px;
+background: #000;
+border-radius: 100px;
+}
+#cancelBtn{
+  border: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:85%;
+  height: 50px;
+  border: 1px solid #000000;
+  background: none;
+  border-radius: 100px;
+  }
